@@ -22,8 +22,6 @@
 
 ```
 
-## Link para fazer pull no hub docker
- - https://hub.docker.com/repository/docker/joshua94/golang/general
 
 ### Instrução de Instalação e execução:
 

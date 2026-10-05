@@ -12,11 +12,24 @@ services:
     networks:
       - desafio-node-network
 
+  nginx-node:
+    build:
+      context: ./nginx
+    container_name:  nginx-node
+    tty: true
+    restart: always
+    ports:
+      - 8080:80
+    networks:
+      - desafio-node-network
+
+
   app:
     build: 
       context: .
     image: fc-node-desafio
     container_name: node-app
+    restart: always
     entrypoint: dockerize -wait tcp://db:3306 -timeout 20s npm run dev
     tty: true
     depends_on:

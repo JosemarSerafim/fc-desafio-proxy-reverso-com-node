@@ -34,7 +34,7 @@ const queryInsert = `
 
 const selectQuery = 'SELECT * FROM people'
 
-app.get('/people', (req, res) => {
+app.get('/', (req, res) => {
     let nomeAleatorio = nomes[Math.floor(Math.random() * nomes.length)];
 
     connection.query(createTable, (err) => {

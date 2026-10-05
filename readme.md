@@ -31,7 +31,4 @@ docker compose up
 ```
 - Acessar a aplicação pelo navegador http://localhost:8080
 
-```
-Full Cycle Rocks!!
-```
   

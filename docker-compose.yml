@@ -35,7 +35,7 @@ services:
     depends_on:
       - db
     volumes:
-      - ./:/app
+      - ./node:/app
     networks:
       - desafio-node-network
     ports:

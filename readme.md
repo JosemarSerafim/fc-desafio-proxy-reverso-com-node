@@ -22,8 +22,6 @@
 
 ```
 
-## Link para fazer pull no hub docker
- - https://hub.docker.com/repository/docker/joshua94/golang/general
 
 ### Instrução de Instalação e execução:
 
@@ -33,7 +31,4 @@ docker compose up
 ```
 - Acessar a aplicação pelo navegador http://localhost:8080
 
-```
-Full Cycle Rocks!!
-```
   
